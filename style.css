@@ -1,0 +1,75 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F7A63;
+    color: white;
+    padding: 1rem;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.call-button {
+    background-color: #C9A14A;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+.hero h2 {
+    color: #1F7A63;
+}
+.hero-buttons button {
+    background-color: #C9A14A;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+/* Founder Section Styles */
+.founder {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+.founder h2 {
+    color: #1F7A63;
+}
+
+/* Products Section Styles */
+.products {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+.products h2 {
+    text-align: center;
+    color: #1F7A63;
+}
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
